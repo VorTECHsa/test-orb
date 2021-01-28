@@ -1,6 +1,6 @@
 version: 2.1
 executors:
-docker-publisher:
+  docker-publisher:
     environment:
       IMAGE_NAME: vortexa/hello-rust
     docker:
